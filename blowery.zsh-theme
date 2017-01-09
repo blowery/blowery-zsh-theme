@@ -49,7 +49,7 @@ local exit_code="%(?,,C:%{$fg[red]%}%?%{$reset_color%})"
 PROMPT="
 %(#,%{$bg[yellow]%}%{$fg[black]%}%n%{$reset_color%},%{$fg[blue]%}%n)\
 %{$terminfo[bold]%{$fg[black]%}@\
-%{$fg[green]%}%m\
+%{$fg[blue]%}%m\
 %{$fg[white]%} \
 %{$terminfo[bold]$fg[yellow]%}%~%{$reset_color%}\
 ${hg_info}\
